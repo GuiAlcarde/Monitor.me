@@ -1,0 +1,134 @@
+<mat-toolbar class="headerMain mat-elevation-z12">
+  <span class="logo v-top">
+    <a routerLink="">
+      <img class="logo" src="../../assets/img/DevLogoWhite.png" alt="Logo">
+    </a>
+  </span>
+  <mat-toolbar class="headerSub mat-elevation-z12">
+    <ul class="headerMenu">
+      <mat-search-bar [placeholder]="'procurando algo?'" style="margin-right: 100px;">
+
+      </mat-search-bar>
+      <li>
+        <button mat-flat-button color="link" routerLink="/home" class="menuButton">
+          <a>
+            <i class="material-icons v-middle" style="margin-right: 2px;">
+              home
+            </i>
+            Inicio
+          </a>
+        </button>
+      </li>
+      <li>
+        <button mat-flat-button color="link" routerLink="/home/login" class="menuButton">
+          <a>
+            <i class="material-icons v-middle" style="margin-right: 2px;">
+              person
+            </i>
+            Login
+          </a>
+        </button>
+      </li>
+    </ul>
+  </mat-toolbar>
+</mat-toolbar>
+<mat-toolbar class="subnav v-middle" color="raised">
+  <a style="margin-right: 5px; font-size: smaller; font-weight: 1rem;" href="https://github.com/BandTec/monitor.me">
+    <fa-icon [icon]="['fab', 'github']" style="margin-right: 2px;"></fa-icon> Join us on Github
+  </a>
+  <ul>
+    <li>
+      <a href="http://dontpad.com/monitorme" style="margin-right: 5px; font-size: smaller; font-weight: 1rem;">
+        <fa-icon [icon]="['fab', 'facebook']" style="margin-right: 2px;"></fa-icon> facebook
+      </a>
+    </li>
+  </ul>
+</mat-toolbar>
+
+<mat-card-content class="mainContent">
+  <router-outlet></router-outlet>
+</mat-card-content>
+<br>
+<mat-card-content class="mainContent">
+  <mat-tab-group dynamicHeight class="tabMain">
+    <mat-tab label="Como Usar" color="primary">
+      <div class="large-box mat-elevation-z4">
+        <mat-card class="mainInstLeft">
+
+        </mat-card>
+        <mat-card-content class="mainInstRight">
+          <br>
+          <span class="headerInst">Join Us</span>
+          <br><br><br><br>
+          <p>Acesse a nossa página de Login para realizar o seu cadastro.</p><br><br>
+          <p>Adquira o nosso Software na versão mais atualizada.</p><br><br>
+          <p>Faça o download do MonitorMe em seu computador.</p><br><br>
+          <p>Faça o Login com o usuário e senha cadastrados!</p>
+        </mat-card-content>
+      </div>
+    </mat-tab>
+    <mat-tab label="O Time!">
+      <div class="large-box v-middle" style="background-color: rgba(0, 0, 0, 0.301);">
+        <div class="mainDevs">
+          <mat-card class="profileCard">
+            <span class="devName">Bruno Ladislau<br><br></span>
+            <img mat-card-image src="https://avatars2.githubusercontent.com/u/53723505?v=4" alt="Profissional">
+            <mat-card-content class="profileData">
+              <a style="margin-right: 5px; font-size: medium; font-weight: 1rem;"
+                href="https://github.com/brunoladislau" target="_blank">
+                <fa-icon [icon]="['fab', 'github']" size="lg" style="margin-right: 2px;"></fa-icon>
+              </a>
+            </mat-card-content>
+          </mat-card>
+
+          <mat-card class="profileCard">
+            <span class="devName">Fernanda Queiroz<br><br></span>
+            <img mat-card-image src="https://avatars0.githubusercontent.com/u/53790904?v=4" alt="Profissional">
+            <mat-card-content class="profileData">
+              <a style="margin-right: 5px; font-size: medium; font-weight: 1rem;"
+                href="https://github.com/fernandacostabandtec" target="_blank">
+                <fa-icon [icon]="['fab', 'github']" size="lg" style="margin-right: 2px;"></fa-icon>
+              </a>
+            </mat-card-content>
+          </mat-card>
+
+          <mat-card class="profileCard">
+            <span class="devName">Gabriel Souza<br><br></span>
+            <img mat-card-image src="https://avatars2.githubusercontent.com/u/54115219?v=4" alt="Profissional">
+            <mat-card-content class="profileData">
+              <a style="margin-right: 5px; font-size: medium; font-weight: 1rem;"
+                href="https://github.com/souzgab" target="_blank">
+                <fa-icon [icon]="['fab', 'github']" size="lg" style="margin-right: 2px;"></fa-icon>
+              </a>
+            </mat-card-content>
+          </mat-card>
+
+          <mat-card class="profileCard">
+            <span class="devName">Guilherme Alcarde<br><br></span>
+            <img mat-card-image src="https://avatars2.githubusercontent.com/u/54115373?v=4" alt="Profissional">
+            <mat-card-content class="profileData">
+              <a style="margin-right: 5px; font-size: medium; font-weight: 1rem;"
+                href="https://github.com/GuiAlcarde" target="_blank">
+                <fa-icon [icon]="['fab', 'github']" size="lg" style="margin-right: 2px;"></fa-icon>
+              </a>
+            </mat-card-content>
+          </mat-card>
+
+          <mat-card class="profileCard">
+            <span class="devName">Igor Leite<br><br></span>
+            <img mat-card-image src="https://avatars3.githubusercontent.com/u/54115456?v=4" alt="Profissional">
+            <mat-card-content class="profileData">
+              <a style="margin-right: 5px; font-size: medium; font-weight: 1rem;"
+                href="https://github.com/igoraleite1268" target="_blank">
+                <fa-icon [icon]="['fab', 'github']" size="lg" style="margin-right: 2px;"></fa-icon>
+              </a>
+            </mat-card-content>
+          </mat-card>
+
+        </div>
+
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</mat-card-content>
+<app-footer-main></app-footer-main>

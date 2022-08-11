@@ -1,0 +1,87 @@
+.AllLogin {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  background-color: rgba(55, 48, 61);
+  min-height: 80%;
+  margin: 20px auto;
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.mainLoginLeft {
+  width: 60vw;
+  background-image: url(../../../assets/img/conect.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.mainLoginRight {
+  display: flexbox;
+  justify-content: center;
+  width: 25%;
+  background-color: rgba(14, 14, 14, 0.5);
+  min-height: 80%;
+  border-radius: 15px;
+}
+
+.mat-card-title {
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.mat-card-subtitle {
+  font-size: 1rem;
+}
+
+.mainLoginContent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: cadetblue; */
+}
+
+.field {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.btnLogin {
+  margin-top: 30px;
+  width: 100%;
+  transition: 0.4s;
+  margin-bottom: 75px;
+}
+
+.btnLogin:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: #33114e;
+}
+
+.large-box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+}
+
+.cad{
+    position: absolute;
+    bottom: 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.h-middle {
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: rgba(55, 48, 61);
+  border-radius: 5px;
+  padding: 0.5vw;
+  text-align: center;
+}

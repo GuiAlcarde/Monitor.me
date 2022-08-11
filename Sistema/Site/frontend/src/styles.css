@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(200, 200, 200);
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background: black;
+}
+
+::-webkit-scrollbar-button:hover {
+  background: #7b1fa2;
+  transition: 0.5s;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  transition: 0.5s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7b1fa2;
+  transition: 0.5s;
+}
+
+.red {
+  color: rgb(182, 1, 167);
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+.v-top {
+  vertical-align: top;
+}
+
+.h-left {
+  margin-left: 0;
+  position: absolute;
+}
+
+.h-middle {
+  margin: 0 auto;
+}

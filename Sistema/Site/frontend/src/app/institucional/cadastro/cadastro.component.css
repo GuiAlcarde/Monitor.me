@@ -1,0 +1,79 @@
+.AllCad {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  background-color: rgba(55, 48, 61, 0.96);
+  min-height: 80%;
+  margin: 20px auto;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.mainCadLeft {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(../../../assets/img/backpurple4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.mainCadRight {
+  display: flexbox;
+  justify-content: flex-start;
+  width: 40%;
+  background-color: rgba(55, 48, 61, 0.99);
+  max-height: 90%;
+  min-height: 90%;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-card-title {
+  font-size: 0.7rem;
+  width: 100%;
+}
+
+.mat-card-subtitle {
+  font-size: 1rem;
+}
+.formCad{
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: flex-end; */
+}
+.btnCad {
+  width: 100%;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.btnCad:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: rgb(51, 17, 78);
+}
+
+.cad {
+  position: static;
+  bottom: 20px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.telegramCad{
+  position: static;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}

@@ -1,0 +1,13 @@
+.contentAlert{
+    display: flex;
+    background-color: #3333330a;
+    flex-direction: column;
+}
+.small-card{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    margin: 3px;
+    background-color: rgb(109, 109, 109);
+}

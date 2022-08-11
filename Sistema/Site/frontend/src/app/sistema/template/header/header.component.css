@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+  background-color: #7b1fa2;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.hlogo-middle {
+  padding-left: 50%;
+}
+
+.header .logo {
+  max-height: 80px;
+  max-width: 142px;
+}
+
+.title-group {
+  background-color: rgb(206, 206, 206);
+  transition: 0.3s;
+}
+
+.title-group:hover {
+  background-color: rgb(161, 43, 43);
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.title-group-download {
+  color: black;
+  width: auto;
+  background-color: rgb(206, 206, 206);
+  transition: 0.3s;
+}
+
+.title-group-download:hover {
+  background-color: rgb(83, 25, 88);
+  color: white;
+  transition: 0.3s;
+}

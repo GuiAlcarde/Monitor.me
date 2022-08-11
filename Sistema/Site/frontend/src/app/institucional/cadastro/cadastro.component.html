@@ -1,0 +1,45 @@
+<mat-card class="AllCad mat-elevation-z8">
+  <mat-card class="mainCadLeft">
+    <mat-card class="mainCadRight mat-elevation-z8">
+      <mat-card-title class="h-middle">Controle o uso da sua máquina...</mat-card-title>
+      <mat-card-subtitle class="h-middle">Cadastre-se</mat-card-subtitle>
+      <mat-card-content class="formCad">
+        <form method="post" #form="ngForm" novalidate (ngSubmit)="signup(form)">
+          <mat-form-field class="field">
+            <input matInput placeholder="Qual seu nome?" [(ngModel)]="user.name" type="text" minlength="5" name="name" required>
+          </mat-form-field>
+          <mat-form-field class="field">
+            <input matInput placeholder="Email" [(ngModel)]="user.email" type="email" name="email" required>
+          </mat-form-field>
+          <mat-form-field class="field">
+            <input matInput placeholder="Celular" [(ngModel)]="user.cellphone" type="tel" name="cellphone" required>
+          </mat-form-field>
+          <mat-form-field class="field">
+            <input matInput placeholder="Senha" [(ngModel)]="user.password" name="password" type="password" required>
+          </mat-form-field>
+          <mat-form-field class="field">
+            <input matInput placeholder="Confirme sua Senha" name="confirmpassword" type="password" required>
+          </mat-form-field>
+          <mat-form-field class="field">
+            <input matInput placeholder="Telegram ChatID" [(ngModel)]="user.idTelegram" type="text" name="idTelegram" required>
+          </mat-form-field>
+          <button mat-raised-button color="primary" type="submit" class="btnCad">Cadastrar</button>
+        </form>
+        <div class="links">
+          <a class="cad" routerLink="/home/login">
+            <i class="material-icons v-middle">
+              undo
+            </i>
+            <span style="color: white;">Voltar para Login</span>
+          </a>
+          <a class="telegramCad" (click)="sendTelegramAlert()">
+            <i class="material-icons v-middle" style="margin-right: 5px;">
+              send
+            </i>
+            <span style="color: white;">encontrar meu Telegram ID</span>
+          </a>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mat-card>
+</mat-card>

@@ -1,0 +1,23 @@
+<mat-card class="content">
+    <mat-card-title>Atualize as Informações da sua Máquina</mat-card-title>
+    <mat-card-subtitle>Atualize aqui rapidamente informações sobre seu hardware.
+    </mat-card-subtitle>
+    <form>
+      <mat-form-field>
+        <input matInput placeholder="Modelo" [(ngModel)]="hardware.modelo" name="modelo">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Memória Ram em GB" [(ngModel)]="hardware.memoryRam" name="memoryRam">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="GPU" [(ngModel)] = "hardware.GPU" name="GPU">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Hard Disk em GB" [(ngModel)] = "hardware.hardDisk" name="hardDisk">
+      </mat-form-field>
+    </form>
+  
+    <button mat-raised-button color="primary" (click)="updateHardware()">Atualizar</button>
+    <button mat-raised-button color="warn" (click)="cancel()">Cancelar</button>
+  </mat-card>
+  

@@ -1,0 +1,29 @@
+.mainProfile{
+    background-color: rgb(105, 105, 105);
+}
+
+.profilePic{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    flex-direction: row;
+}
+.profileData{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.profileDataSide{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    background-color: salmon;
+}
+.profileDataBottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    background-color: sandybrown;
+}

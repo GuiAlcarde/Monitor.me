@@ -1,0 +1,21 @@
+.hardReadContent{
+    margin: 15px;
+    background-color: transparent;
+}
+table{
+    width: 100%;
+}
+.edit{
+    margin-right: 10px;
+}
+.edit > i{
+    color: #e4da52;
+}
+
+.delete > i{
+    color: lightcoral;
+}
+
+th{
+   vertical-align: middle; 
+}

@@ -1,0 +1,153 @@
+.headerMain {
+  min-height: 12vh;
+  display: flex;
+  height: 250px;
+  background-color: rgb(123, 31, 163);
+  justify-content: space-between ;
+  align-items: initial;
+  background-image: url(../../assets/img/backrender.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.headerSub{
+  margin-top: 15px;
+  display: flex;
+  width: 40%;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgba(123, 31, 163, 0.5);
+}
+
+.headerMenu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  text-decoration: none;
+  list-style: none;
+  float: right;
+}
+
+.menuButton {
+  margin-right: 15px;
+  width: auto;
+  background-color: rgba(113, 32, 116, 0.7);
+  transition: 0.3s;
+}
+
+.menuButton:hover{
+  transition: 0.3s;
+  background-color: rgba(50, 15, 51, 0.5);
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  max-height: 225px;
+  max-width: 355px;
+}
+.subnav{
+  justify-content: center;
+  height: 30px;
+  border-bottom: 1px solid darkmagenta;
+  background-color: rgba(113, 32, 116, 0.5);
+}
+ul, a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 40vw;
+  margin: 5px auto;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.large-box {
+  display: flex;
+  align-items: left;
+  width: 88vw;
+  justify-content: left;
+  margin: 30px;
+  padding: 20px;
+  border-radius:15px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 45px;
+  min-height: 70%;
+}
+.mainDevs{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.profileCard{
+  display: flexbox;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(139, 0, 139, 0.466);
+}
+.profileCard img{
+
+  background-size: cover;
+}
+.profileData{
+  text-align: center;
+}
+.mainInstRight {
+  display: inline-flexbox;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(14, 14, 14, 0.5);
+  border-radius: 15px;
+  font-size: 113%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: expanded;
+  margin-left: 10vw;
+}
+
+.mainInstLeft {
+  width: 40%;
+  border-radius: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;  
+  background-image: url(../../../src/assets/img/dashprint.PNG);
+  margin-left: 10vh;
+  margin-bottom: 20px;
+}
+.tabMain{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  height: 100%;
+}
+
+.headerInst {
+  font-style: normal;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: rgba(123, 31, 163, 0.5);
+  border-radius: 15px;
+  padding: 1vw;
+}
+
+.mat-tab-label {
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.devName {
+  font-size: medium;
+  justify-content: center;
+}

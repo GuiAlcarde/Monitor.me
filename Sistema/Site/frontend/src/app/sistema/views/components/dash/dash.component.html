@@ -1,0 +1,36 @@
+<div class="grid-container">
+  <mat-card class="contentAlert mat-elevation-z6">
+    <mat-card-content>
+      <mat-card-title>
+        Maquinas em Alerta
+      </mat-card-title>
+      <mat-card class="small-card v-middle " *ngFor="let data of sttsHardware">
+        <!-- <mat-card-subtitle>
+
+        </mat-card-subtitle> -->
+        <div class="pcStatus v-top">
+          <span style="color: lightblue;font-size: small;float: left;">{{data.gpu.nomeGpu}}</span>
+        </div>
+        <div class="pcStatus v-top">
+          <span style="color: lightblue;font-size: small;float: left;">{{data.cpu.getNomeProc}}</span>
+        </div>
+        <div class="pcStatus v-top">
+          <span style="color: #cc8ccc;float: right;">Temperatura: {{data.cpu.getTemperatura | number}}</span><br>
+          <span style="color: #cc8ccc;float: right;">V-RAM: {{data.gpu.memoriaVRamGpu | number:'1.2'}}GB</span>
+        </div>
+        <div class="pcStatus v-top">
+          <span style="color: #df8f8f;">Data: {{data.data}}</span>
+        </div>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+  <h1 class="mat-h1">Bem-vindo {{userLogado}}</h1>
+  <h2>Temperatura média da gpu: {{ArrayTempGpu}}</h2>
+</div>
+
+<mat-card class="contentCanva mat-elevation-z12">
+  <div width="200" height="200" style="background-color: #ffffff;">
+    <canvas #dashGPU>
+    </canvas>
+  </div>
+</mat-card>

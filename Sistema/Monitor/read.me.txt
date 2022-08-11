@@ -1,0 +1,2 @@
+Arquivos em Amb.Prod são arquivos finais e ja testados
+Arquivos em Amb.Dev estão em processo de desenvolvimento e ainda não foram testados
